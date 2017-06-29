@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C4E10's corners</title>
+</head>
+
+
+<body>
+
+{#<img src="/images/<ten_anh.jpg>" alt="">#}
+
+{% for flower in flowers %}
+    <img src="{{ flower.image }}" alt="">
+    <h3>{{ flower.title }}</h3>
+    <p>{{ flower.price }}</p>
+{% endfor %}
+
+</body>
+
+</html>
