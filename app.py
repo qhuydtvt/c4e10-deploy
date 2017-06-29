@@ -15,6 +15,7 @@ class Flower(Document):
     price = FloatField()
 
 
+
 flower1 = Flower(
     image="https://www.vitacost.com/blog/wp-content/uploads/2016/05/Why-You-Need-More-Lavender-in-Your-Life-e1462955823730.jpg",
     title="Lavender",
